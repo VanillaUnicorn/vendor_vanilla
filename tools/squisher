@@ -199,11 +199,11 @@ cd `dirname $OUTFILE`
 $MD5 $img >$img.md5sum
 ZIPSIZE=`ls -lah $OUTFILE | awk '{ print $5}' `
 echo -e
-echo -e $CL_MAG"___    ______  __      _____                                                $CL_RST
+echo -e $CL_MAG"___    ______  __      _____ $CL_RST
 echo -e $CL_MAG"__ |  / /_  / / /$CL_CYN_________$CL_CYN(_)$CL_CYN_________________________ $CL_RST
-echo -e $CL_MAG"__ | / /_  / / /__  __ \_  /_  ___/  __ \_  ___/_  __ \                     $CL_RST
-echo -e $CL_MAG"__ |/ / / /_/ / _  / / /  / / /__ / /_/ /  /   _  / / /                     $CL_RST
-echo -e $CL_MAG"_____/  \____/  /_/ /_//_/  \___/ \____//_/    /_/ /_/                      $CL_RST
+echo -e $CL_MAG"__ | / /_  / / /__  __ \_  /_  ___/  __ \_  ___/_  __ \ $CL_RST
+echo -e $CL_MAG"__ |/ / / /_/ / _  / / /  / / /__ / /_/ /  /   _  / / / $CL_RST
+echo -e $CL_MAG"_____/  \____/  /_/ /_//_/  \___/ \____//_/    /_/ /_/ $CL_RST
 echo -e
 echo -e $CL_CYN"===========-Package complete-==========="$CL_RST
 echo -e $CL_CYN"zip:"$CL_MAG" $OUTFILE"$CL_RST
