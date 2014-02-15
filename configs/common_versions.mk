@@ -11,7 +11,6 @@ AOKP_BRANCH=kitkat
     else
         PRODUCT_PROPERTY_OVERRIDES += \
             ro.vu.version=$(TARGET_PRODUCT)_$(VU_BRANCH)_unofficial_$(DATE)
-    endif
 endif
 
 # needed for statistics
