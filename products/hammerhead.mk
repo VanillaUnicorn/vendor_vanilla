@@ -2,16 +2,16 @@
 $(call inherit-product, device/lge/hammerhead/full_hammerhead.mk)
 
 # Inherit AOKP common bits
-$(call inherit-product, vendor/aokp/configs/common.mk)
+$(call inherit-product, vendor/vanilla/configs/common.mk)
 
 # Inherit GSM common stuff
-$(call inherit-product, vendor/aokp/configs/gsm.mk)
+$(call inherit-product, vendor/vanilla/configs/gsm.mk)
 
 # Overlay
-#PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/hammerhead
+#PRODUCT_PACKAGE_OVERLAYS += vendor/vanilla/overlay/hammerhead
 
 # Setup device specific product configuration
-PRODUCT_NAME := aokp_hammerhead
+PRODUCT_NAME := vu_hammerhead
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := hammerhead
 PRODUCT_MODEL := Nexus 5
