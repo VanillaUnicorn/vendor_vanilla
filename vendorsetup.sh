@@ -1,5 +1,6 @@
 add_lunch_combo vu_hammerhead-userdebug
 add_lunch_combo vu_mako-userdebug
+add_lunch_combo vu_ls970-userdebug
 add_lunch_combo aokp_flo-userdebug
 add_lunch_combo aokp_maguro-userdebug
 add_lunch_combo aokp_toro-userdebug
