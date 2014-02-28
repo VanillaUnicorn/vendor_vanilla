@@ -14,7 +14,7 @@ PRODUCT_PACKAGES += \
     ROMControl \
     Stk \
     su \
-    VanillaPapers \
+    VUPapers \
     Torch 
     
 
