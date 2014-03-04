@@ -8,6 +8,7 @@ add_lunch_combo aokp_grouper-userdebug
 add_lunch_combo aokp_d2att-userdebug
 add_lunch_combo vu_d2tmo-userdebug
 add_lunch_combo vu_d2usc-userdebug
+add_lunch_combo vu_d2lte-userdebug
 add_lunch_combo aokp_d2vzw-userdebug
 add_lunch_combo aokp_d800-userdebug
 add_lunch_combo vu_d801-userdebug
