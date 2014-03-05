@@ -4,6 +4,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/d2tmo.mk \
     $(LOCAL_DIR)/d2vzw.mk \
     $(LOCAL_DIR)/d2usc.mk \
+    $(LOCAL_DIR)/d2lte.mk \
     $(LOCAL_DIR)/d800.mk \
     $(LOCAL_DIR)/d801.mk \
     $(LOCAL_DIR)/d802.mk \
@@ -20,6 +21,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/i9100.mk \
     $(LOCAL_DIR)/i9100g.mk \
     $(LOCAL_DIR)/i9300.mk \
+    $(LOCAL_DIR)/jflte.mk \
     $(LOCAL_DIR)/jfltecri.mk \
     $(LOCAL_DIR)/jfltecsp.mk \
     $(LOCAL_DIR)/jfltespr.mk \
