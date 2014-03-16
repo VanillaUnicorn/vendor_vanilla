@@ -174,7 +174,7 @@ rm -rf $REPACK/ota/recovery
 
 #MODVERSION=`sed -n -e'/ro\.modversion/s/^.*=//p' $REPACK/ota/system/build.prop`
 VERSION=`sed -n -e'/ro.vu.version/s/^.*=//p' $REPACK/ota/system/build.prop`
-MODVERSION="$VERSION"
+MODVERSION="VanillaUnicorn"
 OUTFILE=$OUT/$MODVERSION.zip
 
 # Pack it up and sign
