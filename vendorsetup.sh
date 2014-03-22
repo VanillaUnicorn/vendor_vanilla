@@ -1,7 +1,10 @@
-add_lunch_combo vu_hammerhead-userdebug
-add_lunch_combo vu_mako-userdebug
-add_lunch_combo vu_flo-userdebug
+add_lunch_combo vu_d2usc-userdebug
+add_lunch_combo vu_d801-userdebug
 add_lunch_combo vu_deb-userdebug
+add_lunch_combo vu_flo-userdebug
+add_lunch_combo vu_hammerhead-userdebug
+add_lunch_combo vu_ls970-userdebug
+add_lunch_combo vu_mako-userdebug
 add_lunch_combo aokp_flo-userdebug
 add_lunch_combo aokp_maguro-userdebug
 add_lunch_combo aokp_toro-userdebug
@@ -9,10 +12,8 @@ add_lunch_combo aokp_manta-userdebug
 add_lunch_combo aokp_grouper-userdebug
 add_lunch_combo aokp_d2att-userdebug
 add_lunch_combo aokp_d2tmo-userdebug
-add_lunch_combo vu_d2usc-userdebug
 add_lunch_combo aokp_d2vzw-userdebug
 add_lunch_combo aokp_d800-userdebug
-add_lunch_combo vu_d801-userdebug
 add_lunch_combo aokp_d802-userdebug
 add_lunch_combo aokp_dogo-userdebug
 add_lunch_combo aokp_find5-userdebug
@@ -28,7 +29,6 @@ add_lunch_combo aokp_jfltetmo-userdebug
 add_lunch_combo aokp_jflteusc-userdebug
 add_lunch_combo aokp_jfltevzw-userdebug
 add_lunch_combo aokp_l900-userdebug
-add_lunch_combo vu_ls970-userdebug
 add_lunch_combo aokp_ls980-userdebug
 add_lunch_combo aokp_m7-userdebug
 add_lunch_combo aokp_m7spr-userdebug
