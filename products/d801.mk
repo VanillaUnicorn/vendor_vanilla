@@ -2,7 +2,7 @@
 $(call inherit-product-if-exists, device/lge/d801/vu.mk)
 
 # d801 overlay
-# PRODUCT_PACKAGE_OVERLAYS += vendor/vu/overlay/d801
+# PRODUCT_PACKAGE_OVERLAYS += vendor/vanilla/overlay/d801
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := d801
