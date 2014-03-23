@@ -2,17 +2,17 @@
 $(call inherit-product, device/samsung/i9100/full_i9100.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/aokp/configs/common.mk)
+$(call inherit-product, vendor/vanilla/configs/common.mk)
 
 # Inherit GSM common stuff
-$(call inherit-product, vendor/aokp/configs/gsm.mk)
+$(call inherit-product, vendor/vanilla/configs/gsm.mk)
 
 # SGS2 overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/i9100
+PRODUCT_PACKAGE_OVERLAYS += vendor/vanilla/overlay/i9100
 
 # Setup device specific product configuration.
 PRODUCT_DEVICE := i9100
-PRODUCT_NAME := aokp_i9100
+PRODUCT_NAME := vu_i9100
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-I9100
 
@@ -25,5 +25,5 @@ PRODUCT_PACKAGES += \
     Thinkfree
 
 PRODUCT_COPY_FILES += \
-   vendor/aokp/prebuilt/bootanimation/bootanimation_480_800.zip:system/media/bootanimation-alt.zip
+    vendor/vanilla/prebuilt/bootanimation/bootanimation_720_720.zip:system/media/bootanimation-alt.zip
 
