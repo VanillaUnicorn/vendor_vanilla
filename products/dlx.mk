@@ -11,8 +11,9 @@ PRODUCT_RELEASE_NAME := dlx
 # overlays
 PRODUCT_PACKAGE_OVERLAYS += device/htc/dlx/overlay
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/vanilla/config/common_full_phone.mk)
+# Inherit Vanilla Unicorn common bits
+$(call inherit-product, vendor/vanilla/configs/common.mk)
+
 
 # Enhanced NFC
 $(call inherit-product, vendor/vanilla/config/nfc_enhanced.mk)
