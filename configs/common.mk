@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/vanilla/prebuilt/common/etc/init.local.rc:root/init.aokp.rc \
     vendor/vanilla/prebuilt/common/etc/init.d/00start:system/etc/init.d/00start \
     vendor/vanilla/prebuilt/common/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
-    vendor/vanilla/prebuilt/common/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel \
     vendor/vanilla/prebuilt/common/etc/sysctl.conf:system/etc/sysctl.conf \
     vendor/vanilla/prebuilt/common/bin/sysinit:system/bin/sysinit
 
