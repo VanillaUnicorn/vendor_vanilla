@@ -14,9 +14,9 @@ PRODUCT_PACKAGE_OVERLAYS += device/htc/dlx/overlay
 # Inherit Vanilla Unicorn common bits
 $(call inherit-product, vendor/vanilla/configs/common.mk)
 
+$(call inherit-product, vendor/vanilla/configs/cdma.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/vanilla/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/vanilla/configs/vzw.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/dlx/full_dlx.mk)
