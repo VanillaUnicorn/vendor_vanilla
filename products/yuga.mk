@@ -2,10 +2,10 @@
 $(call inherit-product-if-exists, device/sony/yuga/aokp.mk)
 
 # yuga overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/aokp/overlay/yuga
+PRODUCT_PACKAGE_OVERLAYS += vendor/vanilla/overlay/yuga
 
 # Setup device specific product configuration.
-PRODUCT_NAME := aokp_yuga
+PRODUCT_NAME := vu_yuga
 PRODUCT_BRAND := Sony
 PRODUCT_DEVICE := yuga
 PRODUCT_MODEL := Xperia Z
