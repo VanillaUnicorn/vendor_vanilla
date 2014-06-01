@@ -11,5 +11,6 @@ add_lunch_combo vu_jfltexx-eng
 add_lunch_combo vu_mako-userdebug
 add_lunch_combo vu_maguro-userdebug
 add_lunch_combo vu_m7-userdebug
+add_lunch_combo vu_honami-userdebug
 add_lunch_combo vu_yuga-userdebug
 
