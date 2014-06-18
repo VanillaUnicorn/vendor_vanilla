@@ -8,9 +8,11 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/d801.mk \
     $(LOCAL_DIR)/d802.mk \
     $(LOCAL_DIR)/dogo.mk \
+    $(LOCAL_DIR)/deb.mk \
     $(LOCAL_DIR)/e980.mk \
     $(LOCAL_DIR)/evita.mk \
     $(LOCAL_DIR)/find5.mk \
+    $(LOCAL_DIR)/flo.mk \
     $(LOCAL_DIR)/grouper.mk \
     $(LOCAL_DIR)/hercules.mk \
     $(LOCAL_DIR)/honami.mk \
