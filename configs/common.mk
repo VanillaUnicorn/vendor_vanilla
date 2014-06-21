@@ -10,6 +10,7 @@ PRODUCT_PACKAGES += \
     BluetoothExt \
     CellBroadcastReceiver \
     libemoji \
+    UIprov \
     LatinImeDictionaryPack \
     ROMControl \
     Stk \
