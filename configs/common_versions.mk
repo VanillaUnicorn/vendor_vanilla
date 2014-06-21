@@ -18,7 +18,7 @@ else
             ro.vu.version=$(TARGET_PRODUCT)_$(VU_BRANCH)_nightly_$(DATE)
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.vu.version=$(TARGET_PRODUCT)_$(VU_BRANCH)_unofficial_$(DATE)
+            ro.vu.version=$(TARGET_PRODUCT)_$(VU_BRANCH)_official_$(DATE)
     endif
 endif
 
