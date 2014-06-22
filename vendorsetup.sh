@@ -7,6 +7,7 @@ add_lunch_combo vu_dlx-eng
 add_lunch_combo vu_flo-userdebug
 add_lunch_combo vu_hammerhead-userdebug
 add_lunch_combo vu_ls970-userdebug
+add_lunch_combo vu_falcon-userdebug
 add_lunch_combo vu_jfltexx-eng
 add_lunch_combo vu_mako-userdebug
 add_lunch_combo vu_maguro-userdebug
